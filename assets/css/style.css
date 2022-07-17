@@ -1,0 +1,1739 @@
+/*============
+font-family: 'Montserrat', sans-serif;
+=============*/
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F4F6F9;
+}
+
+/*=========================================*/
+/*===============Start Logo Area===========*/
+/*=========================================*/
+#main-body-section {
+    padding-bottom: 120px;
+}
+
+.logo-area {
+    background: -o-linear-gradient(293.79deg, #FFA48F 2.26%, #FF4793 19.49%, #A65CE0 42.8%, #5986E0 66.16%, #00C9C9 87.87%);
+    background: linear-gradient(156.21deg, #FFA48F 2.26%, #FF4793 19.49%, #A65CE0 42.8%, #5986E0 66.16%, #00C9C9 87.87%);
+    border-radius: 0px 0px 300px 300px;
+    text-align: center;
+    padding: 199px 0px 137px;
+}
+
+.logo {
+    padding-bottom: 27px;
+}
+
+.logo img {}
+
+.user-profile-area {
+    width: 278px;
+    height: 278px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.user-profile {
+    padding: 32px 75px 32px 56px;
+}
+
+.user-profile img {
+    width: 145px;
+    height: 213px;
+}
+
+.profile-img-link {
+    position: absolute;
+    bottom: 13%;
+    right: 0%;
+}
+
+.profile-img-link img {}
+
+/*=========================================*/
+/*===============End Logo Area===========*/
+/*=========================================*/
+/*=========================================*/
+/*===========Start Upload HairStyle========*/
+/*=========================================*/
+.hairstyle-upload-area-start {
+    padding: 107px 0px 136px;
+}
+
+.hairstyle-upload-area {
+    width: 55%;
+    margin: 0 auto;
+}
+
+.hairrstyle-heading {
+    text-align: center;
+}
+
+.hairrstyle-heading h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 120%;
+    text-align: center;
+    color: #040814;
+    padding-bottom: 8px;
+}
+
+.hairrstyle-heading p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #171B26;
+}
+
+/*=========================================*/
+/*===========End Upload HairStyle========*/
+/*=========================================*/
+/*=========================================*/
+/*=======Start Upload Hair Style Form Area==*/
+/*=========================================*/
+.upload-hairstyle-form-area {
+    background: #FFFFFF;
+    border-radius: 16px;
+    padding: 65px;
+    margin-top: 24px;
+}
+
+.camera-upload {}
+
+.camera-upload {}
+
+.camera {
+    background: -o-linear-gradient(left, #00C9C9 0%, #5A85E0 63.02%, #5A85E0 70.83%);
+    background: -webkit-gradient(linear, left top, right top, from(#00C9C9), color-stop(63.02%, #5A85E0), color-stop(70.83%, #5A85E0));
+    background: linear-gradient(90deg, #00C9C9 0%, #5A85E0 63.02%, #5A85E0 70.83%);
+    border-radius: 32px;
+    width: 65%;
+    margin: 0 auto;
+}
+
+.camera {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 14px 48px;
+}
+
+.camera img {
+    margin-right: 8px;
+}
+
+.camera p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.or-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 24px 0px;
+}
+
+.or-section hr {
+    width: 50%;
+    height: 2px
+}
+
+.or-section p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #828CA5;
+    padding: 0px 5px;
+}
+
+.hairstyle-upload-local-dirve {
+    background: #F8FAFD;
+    border-radius: 8px;
+    padding: 24px 16px;
+}
+
+.form-group {
+    position: relative;
+}
+
+.form-group input {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    position: relative;
+    z-index: 999;
+}
+
+.hairstyle-upload-here {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    z-index: 99;
+}
+
+.hair-img {}
+
+.hair-img img {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.upload-text {}
+
+.upload-text h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    color: #00C9C9;
+    padding-bottom: 4px;
+    cursor: pointer;
+}
+
+.upload-text p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: left;
+    color: #171B26;
+}
+
+.login-crteate-area {
+    padding-top: 24px;
+}
+
+.account-yet p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #171B26;
+    padding-bottom: 8px;
+}
+
+.login-create {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.login-here {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #00C9C9;
+}
+
+.or-class {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #171B26;
+    padding: 0px 5px;
+}
+
+.crteate-account-here {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #00C9C9;
+}
+
+/*=========================================*/
+/*=======Start Upload Hair Style Form Area==*/
+/*=========================================*/
+/*=========================================*/
+/*=========Start Footer Section Area======*/
+/*=========================================*/
+.main-footer-area {
+    background-color: #171B26;
+    padding: 24px 0px;
+    text-align: center;
+}
+
+.copyright-area {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.footer-logo-img {
+    margin-right: 10px;
+}
+
+.copyright-text {}
+
+.copyright-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.copyright-text p a {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #00C9C9;
+}
+
+/*=========================================*/
+/*=========End Footer Section Area======*/
+/*=========================================*/
+/*=========================================*/
+/*==============Start Body Effect===========*/
+/*=========================================*/
+.body-effect-area {}
+
+.body-effect-left-up {
+    position: absolute;
+    top: 5%;
+    left: 20%;
+    z-index: -1;
+    height: 350px;
+    width: 350px;
+    background: #00C9C9;
+    -webkit-filter: blur(400px);
+    filter: blur(400px);
+}
+
+.body-effect-left {
+    position: absolute;
+    top: 75%;
+    left: 20%;
+    z-index: -1;
+    height: 250px;
+    width: 250px;
+    background: #FF8891;
+    -webkit-filter: blur(165.909px);
+    filter: blur(165.909px);
+}
+
+.body-effect-left img {
+    width: 100%;
+    height: 100%;
+}
+
+.body-effect-up {
+    position: absolute;
+    top: -2%;
+    right: 0%;
+    z-index: -1;
+}
+
+.body-effect-up img {
+    height: 550px;
+    width: 400px;
+}
+
+/*=========================================*/
+/*==============End Body Effect===========*/
+/*=========================================*/
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------Page Two Start----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*==================================*/
+/*======Start Hair Analysis Area=======*/
+/*==================================*/
+.responsive-logo-new {
+    display: none;
+}
+
+.hair-analysis-main-area {
+    padding: 0px 150px 0px 145px;
+}
+
+.hair-analysis-heading {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.hair-analysis-heading h4 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #171B26;
+}
+
+.hair-analysis-heading p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #171B26;
+}
+
+.showing-bar-area {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.bar-left {
+    -ms-flex-preferred-size: 46%;
+    flex-basis: 46%;
+    background: -webkit-gradient(linear, left top, right top, from(#00C9C9), to(#5A85E0));
+    background: -o-linear-gradient(left, #00C9C9 0%, #5A85E0 100%);
+    background: linear-gradient(90deg, #00C9C9 0%, #5A85E0 100%);
+    border-radius: 2px;
+    height: 8px;
+}
+
+.bar-right {
+    -ms-flex-preferred-size: 46%;
+    flex-basis: 46%;
+    background: -webkit-gradient(linear, left top, right top, from(#00C9C9), to(#5A85E0));
+    background: -o-linear-gradient(left, #00C9C9 0%, #5A85E0 100%);
+    background: linear-gradient(90deg, #00C9C9 0%, #5A85E0 100%);
+    border-radius: 2px;
+    height: 8px;
+}
+
+.black-bar {
+    background: #E3E9F2;
+    border-radius: 2px;
+}
+
+/*==================================*/
+/*======End Hair Analysis Area=======*/
+/*==================================*/
+/*==================================*/
+/*======Start Build Profile Area=======*/
+/*==================================*/
+.build-profile-area {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.build-profile-heading {}
+
+.build-profile-heading h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #040814;
+}
+
+.already-account-login {
+    padding: 16px 0px;
+}
+
+.already-account-login p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #171B26;
+}
+
+.already-account-login p a {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #00C9C9;
+}
+
+/*==================================*/
+/*======End Build Profile Area=======*/
+/*==================================*/
+/*==================================*/
+/*========Start Promo Applied=========*/
+/*==================================*/
+.promo-applied-area {
+    background: -o-linear-gradient(356.58deg, #FFA48F 1.13%, #FF4793 21.03%, #A65CE0 47.95%, #5986E0 74.93%, #00C9C9 100%), #00C9C9;
+    background: linear-gradient(93.42deg, #FFA48F 1.13%, #FF4793 21.03%, #A65CE0 47.95%, #5986E0 74.93%, #00C9C9 100%), #00C9C9;
+    border-radius: 4px;
+    padding: 16px 24px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.checkmark {}
+
+.checkmark img {
+    height: 43px;
+    width: 43px;
+    border-radius: 50%;
+    margin-right: 24px;
+}
+
+.promo-text {}
+
+.promo-text h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.promo-text p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+/*==================================*/
+/*========End Promo Applied=========*/
+/*==================================*/
+/*==================================*/
+/*======Start Hair Style Type========*/
+/*==================================*/
+.hair-style-type-area {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 32px;
+}
+
+.heading-hair-style {}
+
+.heading-hair-style h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    padding: 10px 29.5px;
+    background: -o-linear-gradient(359.51deg, #FF7CB2 0%, #FF4793 99.96%);
+    background: linear-gradient(90.49deg, #FF7CB2 0%, #FF4793 99.96%);
+    border-radius: 8px;
+    width: 100%;
+    display: block;
+    margin-bottom: 24px;
+}
+
+.flex-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.natural-hair-style {
+    -ms-flex-preferred-size: 47%;
+    flex-basis: 47%;
+}
+
+.hair-structure-area {
+    -ms-flex-preferred-size: 47%;
+    flex-basis: 47%;
+}
+
+.hair-style-item {
+    text-align: center;
+}
+
+.hair-style-item img {
+    height: 56px;
+    width: 56px;
+    border-radius: 50%;
+    margin-bottom: 8px;
+}
+
+.hair-style-item p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #171B26;
+}
+
+/*==================================*/
+/*======End Hair Style Type========*/
+/*==================================*/
+/*==================================*/
+/*=======Start Button Area===========*/
+/*==================================*/
+.main-button-area {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-top: 1px solid #E3E9F2;
+    padding-top: 24px;
+    margin-top: 24px;
+}
+
+.previous-btn {}
+
+.previous-btn button {
+    border: none;
+    background: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #00C9C9;
+    padding: 14px 40px;
+    background: #FFFFFF;
+    border-radius: 32px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.previous-btn button i {
+    font-size: 30px;
+}
+
+.previous-btn button:hover {
+    background: -webkit-gradient(linear, left top, right top, from(#00C9C9), to(#5A85E0));
+    background: -o-linear-gradient(left, #00C9C9 0%, #5A85E0 100%);
+    background: linear-gradient(90deg, #00C9C9 0%, #5A85E0 100%);
+    border-radius: 32px;
+    color: #FFFFFF;
+}
+
+.previous-btn button:hover i {
+    color: #FFFFFF;
+}
+
+.next-btn {}
+
+.next-btn button {
+    border: none;
+    background: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #00C9C9;
+    padding: 14px 40px;
+    background: #FFFFFF;
+    border-radius: 32px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.next-btn button i {
+    font-size: 30px;
+}
+
+.hover-img {
+    display: none;
+    margin-right: 7px;
+}
+
+.orginal {
+    margin-right: 7px;
+}
+
+.next-btn button:hover .hover-img {
+    display: block;
+}
+
+.next-btn button:hover .orginal {
+    display: none;
+}
+
+.next-btn button:hover {
+    background: -webkit-gradient(linear, left top, right top, from(#00C9C9), to(#5A85E0));
+    background: -o-linear-gradient(left, #00C9C9 0%, #5A85E0 100%);
+    background: linear-gradient(90deg, #00C9C9 0%, #5A85E0 100%);
+    border-radius: 32px;
+    color: #FFFFFF;
+}
+
+.next-btn button:hover i {
+    color: #FFFFFF;
+}
+
+/*==================================*/
+/*=======Start Button Area===========*/
+/*==================================*/
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------Page Three Start----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*==================================*/
+/*===Start Select Hair Goals Area====*/
+/*==================================*/
+.select-hair-goals-area {}
+
+.hari-golas-heading {
+    margin: 24px 0px 16px;
+}
+
+.hari-golas-heading h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+    padding: 10px 16px;
+    background: -o-linear-gradient(359.51deg, #FF7CB2 0%, #FF4793 99.96%);
+    background: linear-gradient(90.49deg, #FF7CB2 0%, #FF4793 99.96%);
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+
+.notice-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #171B26;
+}
+
+.hair-select-option {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-bottom: 8px;
+}
+
+.select-item {}
+
+.select-item button {
+    border: none;
+    background: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #171B26;
+    padding: 6px 12px;
+    background: #FFFFFF;
+    border: 1px solid #E3E9F2;
+    border-radius: 8px;
+    margin-right: 4px;
+}
+
+.select-item button:focus {
+    color: #00C9C9;
+    background: #DCFFFF;
+    border: 1px solid #00C9C9;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+/*==================================*/
+/*===End Select Hair Goals Area====*/
+/*==================================*/
+/*==================================*/
+/*=Start What is your Favourit Area=*/
+/*==================================*/
+.what-is-your-favorite-section {
+    background: #FFFFFF;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.what-is-heading {}
+
+.what-is-heading h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #040814;
+    margin-bottom: 8px;
+}
+
+.what-is-heading p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #171B26;
+    margin-bottom: 14px;
+}
+
+.search-here-area {
+    margin-bottom: 14px;
+}
+
+.search {
+    position: relative;
+}
+
+.search input {
+    border: none;
+    background: none;
+    padding: 14px 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #828CA5;
+    background: #FFFFFF;
+    border: 1px solid #E3E9F2;
+    border-radius: 4px;
+    padding-left: 52px;
+    width: 100%;
+}
+
+.search-icon {
+    position: absolute;
+    top: 30%;
+    left: 3%;
+}
+
+.search-item-here {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-bottom: 8px;
+}
+
+.search-item {}
+
+.search-item button {
+    border: none;
+    background: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #171B26;
+    padding: 6px 12px;
+    background: #F0F4FB;
+    border: 1px solid #F0F4FB;
+    border-radius: 8px;
+    margin-right: 4px;
+}
+
+/*==================================*/
+/*=End What is your Favourit Area=*/
+/*==================================*/
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------Page Four Start----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+#bg-for-bd {
+    background: -o-linear-gradient(349.18deg, #FFA48F 1.32%, #FF4793 21.18%, #A65CE0 48.04%, #5986E0 74.97%, #00C9C9 100%);
+    background: linear-gradient(100.82deg, #FFA48F 1.32%, #FF4793 21.18%, #A65CE0 48.04%, #5986E0 74.97%, #00C9C9 100%);
+    background-repeat: no-repeat;
+    height: 100%;
+    padding-top: 65px;
+    padding-bottom: 0px;
+}
+
+.profile-img-area {
+    text-align: center;
+}
+
+.logo-new {
+    margin-bottom: 32px;
+}
+
+.scan-box {
+    background: url(../images/scan-box.svg)no-repeat scroll 0 0 / 100% 100%;
+    text-align: center;
+    display: inline-block;
+    height: 327px;
+    width: 316px;
+    margin: 0 auto;
+}
+
+.profile-img {
+    position: relative;
+}
+
+.profile-img img {
+    border-radius: 50%;
+    margin-top: 40px;
+}
+
+.profile-img:after {
+    content: "";
+    clear: both;
+    position: absolute;
+    top: 55%;
+    left: 5%;
+    background: #FFFFFF;
+    height: 3.64684px;
+    width: 280px;
+    border-radius: 9.72491px;
+}
+
+.user-details {
+    padding-top: 24px;
+}
+
+.user-details h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-bottom: 6px;
+}
+
+.user-details p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.profile-body-effect {}
+
+.effect-001 {
+    position: absolute;
+    background: url(../images/effect-002.png)no-repeat scroll 0 0 / 100% 100%;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------Page Five Start----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*==================================*/
+/*===Start Left Side Profile Area====*/
+/*==================================*/
+.user-profie-details-area {}
+
+.main-profile-img {
+    margin-bottom: 32px;
+}
+
+.main-profile-img img {
+    width: 100%;
+}
+
+.profile-img-details {
+    text-align: left;
+}
+
+.profile-img-details h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    color: #040814;
+    margin-bottom: 4px;
+}
+
+.profile-img-details p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #171B26;
+    margin-bottom: 8px;
+}
+
+.thank-you-notice {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.icon-here {
+    margin-right: 16px;
+}
+
+.thank-you-text {}
+
+.thank-you-text p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #171B26;
+}
+
+.analysis-area {
+    margin-top: 37px;
+    margin-bottom: 40px;
+}
+
+.analysis-heading {
+    text-align: left;
+    padding-bottom: 16px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.analysis-left-arrow {
+    margin-right: 15px;
+}
+
+.analysis-heading h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #040814;
+}
+
+.analysis-item {
+    height: 126px;
+    border-radius: 8px;
+}
+
+.item-text-here {
+    padding-top: 84px;
+    padding-left: 16px;
+    text-align: left;
+}
+
+.item-text-here h4 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.item-text-here p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.item-one {
+    background: url(../images/profile-page/Analysis-slider/01.png)no-repeat scroll 0 0 / 100% 100%;
+}
+
+.item-two {
+    background: url(../images/profile-page/Analysis-slider/02.png)no-repeat scroll 0 0 / 100% 100%;
+}
+
+.item-three {
+    background: url(../images/profile-page/Analysis-slider/01.png)no-repeat scroll 0 0 / 100% 100%;
+}
+
+/*==================================*/
+/*===End Left Side Profile Area====*/
+/*==================================*/
+/*==================================*/
+/*======Start Right Side Area========*/
+/*==================================*/
+.right-side-slider-area {
+    padding-left: 50px;
+}
+
+.logoArea {
+    padding: 40px 0px 24px;
+}
+
+.goal-perferences-tip-area {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.goal-slider-area {
+    -ms-flex-preferred-size: 65%;
+    flex-basis: 65%;
+    background: -o-linear-gradient(349.18deg, #FFA48F 1.32%, #FF4793 21.18%, #A65CE0 48.04%, #5986E0 74.97%, #00C9C9 100%);
+    background: linear-gradient(100.82deg, #FFA48F 1.32%, #FF4793 21.18%, #A65CE0 48.04%, #5986E0 74.97%, #00C9C9 100%);
+    border-radius: 16px;
+    padding: 24px;
+}
+
+.goal-heading {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 21px;
+}
+
+.goal-left-arrow {
+    margin-right: 15px;
+}
+
+.goal-heading h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.goal-slider {
+    /*
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+*/
+}
+
+.goal-slider-item {}
+
+.goal-slider-item img {}
+
+.custom-slider {
+    background: -o-radial-gradient(5% 0%, 56.02% 61.73%, #A3FFBC 0%, #00C9C9 100%);
+    background: radial-gradient(56.02% 61.73% at 5% 0%, #A3FFBC 0%, #00C9C9 100%);
+    -webkit-box-shadow: 0px 8px 16px rgba(129, 11, 108, 0.32);
+    box-shadow: 0px 8px 16px rgba(129, 11, 108, 0.32);
+    border-radius: 8px;
+    /*
+    width: 120px;
+    height: 108px;
+*/
+}
+
+.custom-slider p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.tip-area {
+    -ms-flex-preferred-size: 33%;
+    flex-basis: 33%;
+    background: -o-linear-gradient(330.54deg, #FF7CB2 0%, #FF4793 98.21%);
+    background: linear-gradient(119.46deg, #FF7CB2 0%, #FF4793 98.21%);
+    border-radius: 16px;
+    padding: 16px 24px;
+}
+
+.tip-area h3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.tip-area p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.recommendation-slider-area {
+    background: #FFFFFF;
+    border-radius: 14px;
+    padding: 24px;
+    margin-top: 24px;
+}
+
+.recommendation-heading {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 16px;
+    padding-bottom: 16px;
+}
+
+.recommendation-heading h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #040814;
+}
+
+.recommendation-slider {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.recommendation-slider-item {
+    background: #00C9C9;
+    border-radius: 16px;
+}
+
+.recommendation-slider-item img {
+    border-radius: 16px;
+    width: 100%;
+    height: 270px;
+}
+
+.slider-text {
+    text-align: center;
+}
+
+.slider-text h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    background: #00C9C9;
+    border-radius: 16px;
+    padding: 16px 0px;
+}
+
+.slder-arrow {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.rec-left-arrow {
+    margin-right: 15px;
+}
+
+.rec-right-arrow {}
+
+/*==================================*/
+/*======End Right Side Area========*/
+/*==================================*/
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------Page Six Start----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*==================================*/
+/*========Star Summary Area===========*/
+/*==================================*/
+.summary-profile-area {}
+
+.summay-profile {}
+
+.summay-profile img {
+    width: 100%;
+}
+
+.wash-go-details {
+    background: #171B26;
+    border-radius: 16px;
+    width: 78%;
+    margin: 0 auto;
+    padding: 24px 40px;
+    margin-top: -70px;
+    position: relative;
+    z-index: 999;
+}
+
+.wahs-go-heading {}
+
+.wahs-go-heading h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+.flexBox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.wash {}
+
+.wash h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 120%;
+    color: #00C9C9;
+}
+
+.wash p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #828CA5;
+}
+
+.wash h6 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #828CA5;
+}
+
+.summary-text {
+    background: -o-linear-gradient(332.94deg, #FFA48F 1.63%, #FF4793 21.43%, #A65CE0 48.21%, #5986E0 75.05%, #00C9C9 100%);
+    background: linear-gradient(117.06deg, #FFA48F 1.63%, #FF4793 21.43%, #A65CE0 48.21%, #5986E0 75.05%, #00C9C9 100%);
+    border-radius: 16px;
+    padding: 24px;
+    text-align: left;
+    margin-top: 40px;
+}
+
+.summary-text h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+.summary-text p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+/*==================================*/
+/*========End Summary Area===========*/
+/*==================================*/
+/*==================================*/
+/*========End Product Area===========*/
+/*==================================*/
+.product-area {
+    background: #FFFFFF;
+    border-radius: 14px;
+    padding: 24px;
+}
+
+.product-slider-item {}
+
+.product-text {
+    text-align: center;
+}
+
+.product-text h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #171B26;
+}
+
+.product-text h3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #00C9C9;
+}
+
+/*==================================*/
+/*========End Product Area===========*/
+/*==================================*/
+/*==================================*/
+/*========Start Regimen Area===========*/
+/*==================================*/
+.regimen-slider-area {
+    padding: 24px 0px 33px;
+}
+
+.regimen-slider {}
+
+.regimen-slider-item {}
+
+.regimen-slider-item h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #171B26;
+}
+
+.regimen-slider-item p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #171B26;
+}
+
+.expectations-area {
+    margin-top: 36px 0px 8px;
+}
+
+.expectations-area h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #040814;
+    margin-bottom: 8px;
+}
+
+.expectations-area p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #171B26;
+}
+
+/*==================================*/
+/*========End Regimen Area===========*/
+/*==================================*/
+/*==================================*/
+/*========Start Video Area===========*/
+/*==================================*/
+#main-video-area {
+    margin-bottom: 133px;
+}
+
+.blog-img {
+    width: 360px;
+}
+
+.blog-text h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #040814;
+}
+
+.blog-text p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #171B26;
+    padding: 14px 0px;
+}
+
+.blog-text span {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #171B26;
+}
+
+/*==================================*/
+/*========End Video Area===========*/
+/*==================================*/
+.main-download-area {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.download-item {
+    -ms-flex-preferred-size: 20%;
+    flex-basis: 20%;
+}
+
+.download-item img {}
+
+.download-btn {
+    text-align: center;
+    margin-top: 48px;
+}
+
+.download-btn button {
+    border: none;
+    background: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 18px 48px;
+    background: -webkit-gradient(linear, left top, right top, from(#00C9C9), to(#5A85E0));
+    background: -o-linear-gradient(left, #00C9C9 0%, #5A85E0 100%);
+    background: linear-gradient(90deg, #00C9C9 0%, #5A85E0 100%);
+    border-radius: 32px;
+}
+
+.download-app-text {}
+
+.download-app-text h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 24px 0px 8px;
+}
+
+.download-app-text p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.custom-padding {
+    padding: 0px;
+    margin: 0px;
+    padding-top: 90px
+}
